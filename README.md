@@ -25,3 +25,11 @@ kubectl scale statefulset/cassandra --replicas=0
 kubectl scale statefulset/cassandra --replicas=1
 ```
 Restart your nodes.
+
+Cassandra Status
+```bash
+nodetool status
+or
+nodetool -h ::FFFF:127.0.0.1 status
+nodetool -h ::FFFF:127.0.0.1 tablestats
+```
