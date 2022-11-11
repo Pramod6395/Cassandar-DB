@@ -18,4 +18,10 @@ cp -RT snapshots/truncated-1668177628209-ts_kv_cf/ .
 ```bash
  nodetool refresh 
 ```
+```bash
+kubectl scale statefulset/cassandra --replicas=0
+```
+```bash
+kubectl scale statefulset/cassandra --replicas=1
+```
 Restart your nodes.
