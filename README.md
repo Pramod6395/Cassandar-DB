@@ -33,3 +33,14 @@ or
 nodetool -h ::FFFF:127.0.0.1 status
 nodetool -h ::FFFF:127.0.0.1 tablestats
 ```
+
+Delete data from volume]
+```bash
+cd /var/lib/docker/volumes/minikube/_data/hostpath-provisioner/thingsboard/cassandra-data-cassandra-1/data/thingsboard/ts_kv_cf-53b137c05f3211ed9d54b565838241ff
+
+```
+```bash
+truncate -s 0 *
+
+```
+
