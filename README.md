@@ -43,4 +43,8 @@ cd /var/lib/docker/volumes/minikube/_data/hostpath-provisioner/thingsboard/cassa
 truncate -s 0 *
 
 ```
+Check Size of table 
+```bash
+nodetool cfstats -- <keyspace>.<table>
+```
 
