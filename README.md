@@ -1,5 +1,14 @@
 # Cassandar-DB
 
+Cassandra logs ,config and data file path resp:
+
+```bash
+cd /var/log/cassandra
+cd /etc/cassandra
+cd /var/lib/cassandra/
+
+```
+
 How to Truncate cassandra DB
 ```bash
 cqlsh
