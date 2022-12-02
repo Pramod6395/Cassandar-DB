@@ -56,4 +56,20 @@ Check Size of table
 ```bash
 nodetool cfstats -- <keyspace>.<table>
 ```
+How-to check database size and desired capacity
+
+To find out free space:
+```bash
+du -h
+```
+To find out DB size
+
+1. PostgreSQL
+```bash
+sudo -u postgres psql -c "SELECT pg_size_pretty( pg_database_size('dbname') );"
+```
+2. Cassandra
+```bash
+du -h /var/lib/cassandra/ | tail -1
+```
 
