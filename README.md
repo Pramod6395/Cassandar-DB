@@ -72,4 +72,15 @@ sudo -u postgres psql -c "SELECT pg_size_pretty( pg_database_size('dbname') );"
 ```bash
 du -h /var/lib/cassandra/ | tail -1
 ```
+How to fix 'Active: active (exited)' issue in Cassandra server
+```bash
+
+    Cassandra does seem not to be working with Java 11
+    install java 8 by runing this command: sudo apt install openjdk-8-jdk openjdk-8-jre
+    Run the following command to chose the java 8: sudo update-alternatives --config java
+    reboot you ubuntun computer or VM
+    start cassandra: sudo service cassandra start
+    check cassandra status: service cassandra status
+
+```
 
