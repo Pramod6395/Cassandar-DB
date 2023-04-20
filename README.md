@@ -1,5 +1,9 @@
 # Cassandar-DB
 
+Installtion:
+
+https://www.howtoforge.com/how-to-install-apache-cassandra-on-ubuntu-20-04/
+
 Cassandra logs ,config and data file path resp:
 
 ```bash
