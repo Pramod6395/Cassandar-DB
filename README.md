@@ -1,6 +1,6 @@
 # Cassandar-DB
 
-Installtion:
+Installation:
 
 https://www.howtoforge.com/how-to-install-apache-cassandra-on-ubuntu-20-04/
 
